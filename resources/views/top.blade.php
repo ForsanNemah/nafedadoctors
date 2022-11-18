@@ -6,14 +6,14 @@
             <div class="container" dir="rtl" >
 
                
-                <img src="{{asset('logo.webp')}}"     width="150" height="150">
+                <img src="{{asset('logo.webp')}}"     width="150" height="140">
                 @include('success')
                        
 
                 <a class="navbar-brand mx-auto d-lg-none"  >
                    
 <h3 style="color: white;">    {{config('app.name')}}</h3>
-<h4 style="color: white;">  {{config('app.sub_name')}} </h4>
+<h6 style="color: white;">  {{config('app.sub_name')}} </h6>
                      
                     <br>
                     <strong class="d-white">   </strong>
