@@ -41,8 +41,7 @@ https://templatemo.com/tm-566-medic-care
     @include('wapp')
    
   @include('top')
-  <br>
-  <br>
+ 
   
  
   @include('booking')
