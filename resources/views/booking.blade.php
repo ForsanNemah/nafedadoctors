@@ -17,7 +17,7 @@
                             
 
                             <div class="col-lg-6 col-12">
-                                <input style="background: #E8E8E8" type="telephone" name="phone" id="phone" class="form-control" placeholder=" الهاتف " required>
+                                <input style="background: #E8E8E8" type="number" name="phone" id="phone" class="form-control" placeholder=" الهاتف " required>
                             </div>
 
                             <div class="col-lg-6 col-12">
