@@ -13,7 +13,7 @@
                 <a class="navbar-brand mx-auto d-lg-none"  >
                    
 <h3 style="color: white;">    {{config('app.name')}}</h3>
-<h style="color: white;">  {{config('app.sub_name')}} </h>
+<h4 style="color: white;">  {{config('app.sub_name')}} </h4>
                      
                     <br>
                     <strong class="d-white">   </strong>
