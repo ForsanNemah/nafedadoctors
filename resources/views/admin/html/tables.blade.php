@@ -60,6 +60,8 @@
                                     <div class="easion-card-title">Default table</div>
                                 </div>
                                 <div class="card-body ">
+
+
                                     <table class="table table-in-card">
                                         <thead>
                                             <tr>
@@ -90,6 +92,17 @@
                                             </tr>
                                         </tbody>
                                     </table>
+
+
+
+
+
+
+
+
+
+
+                                    
                                 </div>
                             </div>
                         </div>

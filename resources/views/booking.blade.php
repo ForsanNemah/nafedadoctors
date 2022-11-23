@@ -5,7 +5,7 @@
             <div class="col-lg-8 col-12 mx-auto">
                 <div class="booking-form">
                    
-                    <h2 class="text-center mb-lg-3 mb-2">إحجز موعد</h2>
+                    <h2 class="text-center mb-lg-3 mb-2">احجز موعد</h2>
                 
                     <form role="form" action="{{URL::to('/orders')}}" method="post">
                         @csrf

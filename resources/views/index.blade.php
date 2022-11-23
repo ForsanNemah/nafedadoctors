@@ -61,10 +61,11 @@ https://templatemo.com/tm-566-medic-care
 <!-- 
     
     @include('work')
-    @include('footer') 
+   
     
     
     -->
+    @include('footer') 
    
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
