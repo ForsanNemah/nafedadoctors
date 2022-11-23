@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,6 +19,11 @@ Route::get('/', function () {
 });
 
 
+Route::get('/adminn', function () {
+    return view('admin.html.login');
+});
+
+
 Route::get('/login', function () {
     //return view('admin.html.login');
 
@@ -30,6 +36,7 @@ Route::post('/cu', 'App\Http\Controllers\CheckAdmin@login');
 
 Route::view('/o', 'welcome');
 
+Route::view('/dash', 'admin.html.index')->name('dash');
 Route::view('/show_registers', 'admin.html.tables');
 
  

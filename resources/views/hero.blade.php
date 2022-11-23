@@ -7,15 +7,15 @@
                             <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="images/slider/portrait-successful-mid-adult-doctor-with-crossed-arms.jpg" class="img-fluid" alt="">
+                                        <img src="images/royalasnan/2.png" class="img-fluid" alt="">
                                     </div>
 
                                     <div class="carousel-item">
-                                        <img src="images/slider/young-asian-female-dentist-white-coat-posing-clinic-equipment.jpg" class="img-fluid" alt="">
+                                        <img src="images/royalasnan/1.png" class="img-fluid" alt="">
                                     </div>
 
                                     <div class="carousel-item">
-                                        <img src="images/slider/doctor-s-hand-holding-stethoscope-closeup.jpg" class="img-fluid" alt="">
+                                        <img src="images/royalasnan/2.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>

@@ -52,14 +52,20 @@ https://templatemo.com/tm-566-medic-care
 
   @include('about')
 
-  @include('work')
+  
   
           
            
 
         </main>
-
-    @include('footer')
+<!-- 
+    
+    @include('work')
+    @include('footer') 
+    
+    
+    -->
+   
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>

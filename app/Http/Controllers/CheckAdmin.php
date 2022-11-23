@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use DB;
 use Redirect;
+use Routes;
 class CheckAdmin extends Controller
 {
     //
@@ -20,8 +21,8 @@ class CheckAdmin extends Controller
   
  if(count( $results )>0){
 
-
-return view('admin.html.index');
+    return redirect()->route('dash');
+//return view('admin.html.index');
  }
  else{
 
