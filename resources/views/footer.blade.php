@@ -13,14 +13,23 @@
                   
                   <a href="https://www.google.com/search?q=%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9+%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1+%D8%B9%D9%85%D8%A7%D8%B1+%D8%A7%D9%84%D8%B9%D8%B4%D8%A7%D8%A8%D9%8A&oq=%D8%B9%D9%8A&aqs=chrome.3.69i57j69i61j69i59l3j69i61j0i433i512l3j46i433.3459j0j4&client=ms-android-att-us-revc&sourceid=chrome-mobile&ie=UTF-8">
                 
-                
+                 
                     <h5 class="mb-lg-4 mb-3">ساعات الدوام ولمزيد من المعلومات</h5>
                 
                 </a>
+
+
+              
                 </div>
     
                 <div class="col-lg-2 col-md-6 col-12 my-4 my-lg-0">
-                    <h5 class="mb-lg-4 mb-3">{{config('app.sub_clinic_name')}}</h5>
+                    <a href="https://www.royalmedical.net/?gclid=EAIaIQobChMIzMvzptvE-wIVkBkGAB3iIQevEAAYASAAEgICN_D_BwE">
+
+
+                        <h5 class="mb-lg-4 mb-3">{{config('app.sub_clinic_name')}}</h5>
+
+                    </a>
+                   
                     <br>
                     <h5 class="mb-lg-4 mb-3">العنوان</h5>
     
