@@ -20,6 +20,12 @@
                                 </div>
                             </div>
 
+
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
                             <div class="heroText d-flex flex-column justify-content-center">
 
                                 <h1 class="mt-auto mb-2">
