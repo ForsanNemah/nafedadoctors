@@ -43,3 +43,8 @@ Route::view('/show_registers', 'admin.html.tables');
 
 Route::post('/orders', 'App\Http\Controllers\Orders@login');
 Route::resource('/users', 'App\Http\Controllers\RegsController');
+
+Route::get('/clear', function() {
+    Artisan::call('cache:clear');
+    return "Cache is cleared";
+});
