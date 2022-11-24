@@ -87,6 +87,7 @@
     <td>{{$item->state}}</td>
     <td>{{$item->called}}</td>
     <td>{{$item->datee}}</td>
+    <br>
     <td>
 
 
