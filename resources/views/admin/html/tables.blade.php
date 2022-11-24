@@ -11,10 +11,10 @@
     <script src="{{ URL::asset('admin/js/chart-js-config.js') }} " >  </script>
     <title>Easion - Bootstrap Dashboard Template</title>
 </head>
-
+@include('admin.html.sidebar')
 <body>
     <div class="dash">
-     @include('admin.html.sidebar')
+    
         <div class="dash-app">
             <header class="dash-toolbar">
                 <a href="#!" class="menu-toggle">
@@ -72,24 +72,42 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>Larry</td>
-                                                <td>the Bird</td>
-                                                <td>@twitter</td>
-                                            </tr>
+
+
+
+@foreach ($results as $item)
+
+<tr>
+   
+    <td id="id">{{$item->id}}</td>
+    <td>{{$item->name}}</td>
+    <td>{{$item->phn}}</td>
+    <td>{{$item->course}}</td>
+    <td>{{$item->time}}</td>
+    <td>{{$item->state}}</td>
+    <td>{{$item->called}}</td>
+    <td>{{$item->datee}}</td>
+    <td>
+
+
+        <td><button class= "btn btn-warning" data-toggle="modal" onclick="get_id" > Edit </button></td>
+        <td><button class= "btn btn-danger" data-toggle="modal" data-target="#deleteModal"> Delete </button></td>
+
+
+
+
+
+    </td>
+    
+</tr>
+ 
+@endforeach
+
+
+
+
+                                           
+
                                         </tbody>
                                     </table>
 
@@ -125,3 +143,22 @@
 </body>
 
 </html>
+ 
+    
+
+    <script>
+       $( document ).ready(function() {
+   
+        
+        function get_id() {
+  alert('wwe');
+}
+
+});
+
+ 
+
+    </script>
+
+
+ 
