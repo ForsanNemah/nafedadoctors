@@ -68,7 +68,7 @@ https://templatemo.com/tm-566-medic-care
     
     
     -->
-    @include('footer') 
+  
    
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
