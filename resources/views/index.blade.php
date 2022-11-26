@@ -38,7 +38,7 @@ https://templatemo.com/tm-566-medic-care
 <body   >
 //window.location.href = "#booking";
     </script>
-    @include('wapp')
+    
    
   @include('top')
  <br>
